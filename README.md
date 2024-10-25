@@ -2,6 +2,29 @@
 
 Flutter tv,movie tracker app using with OMDB api for my personal use. A personal media tracking application for movies, TV shows, and anime built with Flutter. Keep track of your watched content and manage your watchlist efficiently.
 
+## Screenshots
+
+### Home Screen
+<img src="lib/assets/screenshots/home_screen.png" width="300" alt="Home Screen">
+
+*Main dashboard showing library statistics and quick access to different media categories*
+
+### Media List
+<img src="lib/assets/screenshots/media_list.png" width="300" alt="Media List">
+
+*List view of TV shows with search functionality and rating display*
+
+### Media Details
+<img src="lib/assets/screenshots/media_details_1.png" width="300" alt="Media Details 1">
+<img src="lib/assets/screenshots/media_details_2.png" width="300" alt="Media Details 2">
+
+*Detailed view of media items showing comprehensive information including ratings, plot, and technical details*
+
+### Watchlist
+<img src="lib/assets/screenshots/watchlist_item.png" width="300" alt="Watchlist Item">
+
+*Watchlist item with options to move to watched or remove from list*
+
 ## Features
 
 - Track movies, TV shows, and anime
@@ -51,18 +74,6 @@ Flutter tv,movie tracker app using with OMDB api for my personal use. A personal
 3. **Import Data:**
    - Import existing collections via CSV
    - Supported formats: movies, TV shows, anime
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
