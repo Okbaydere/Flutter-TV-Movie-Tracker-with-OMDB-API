@@ -169,9 +169,9 @@ class _WatchlistDetailScreenState extends State<WatchlistDetailScreen> {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
 
-    return PopScope(
+    return PopScope<void>(
       canPop: !_hasUnsavedChanges,
-      onPopInvoked: (didPop) async {
+      onPopInvokedWithResult: (didPop, _) async {
         if (didPop) return;
 
         final save = await showDialog<bool>(
