@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 import 'package:media_tracker/models/media_item.dart';
 
 class OmdbService {
-  final String apiKey = '5fbcaa69';
+  final String apiKey = 'YOUR OMDB API KEY HERE';
   final String baseUrl = 'http://www.omdbapi.com/';
 
   Future<List<MediaItem>> searchMedia(String query) async {
